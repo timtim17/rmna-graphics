@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #00ff00;
+}
+
+img {
+    filter: brightness(100);
+    width: 40px;
+    display: block;
+}
+
+div {
+    background-color: #778B96;
+    width: fit-content;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 10pt;
+}
+
+#pronoun {
+    border-radius: 0;
+    right: 20px;
+    position: absolute;
+}
+
+aside {
+    position: relative;
+    display: inline-block;
+}
+
+#r, #name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 56px;
+}
+
+section {
+    display: flex;
+    width: fit-content;
+    gap: 8px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+}
